@@ -15,7 +15,7 @@ const Header = () => {
                     </li>
 
                     <li>
-                        <Link to="/brinquedos" className="text-[#5C493B] text-lg no-underline hover:text-[#A88970] transition-colors duration-300">Brinquedos</Link>
+                        <Link to="/bicicletas" className="text-[#5C493B] text-lg no-underline hover:text-[#A88970] transition-colors duration-300">Bicicletas</Link>
                     </li>
 
                     <li>
