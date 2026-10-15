@@ -1,0 +1,58 @@
+:root {
+    --color-primary: #A88970;
+    --bg: #F7F3EB;
+    --text-color: #5C493B;
+    --btn-color: #A88970;
+    --header-bg: #F7F3EB;
+    --color-secondary: #E5D5C3;
+    --color-hover: #8F7059;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text-color);
+}
+
+main {
+    margin-top: 50px !important;
+}
+
+.titulo {
+    color: var(--text-color);
+    margin-bottom: 20px;
+    padding-left: 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.titulo:hover {
+    color: var(--color-primary);
+    cursor: default;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
